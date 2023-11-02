@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+.logo-text {
+    text-align: center;
+    color: white;
+    font-family:monospace;
+    margin-top: -25px;
+}
+
+.description {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+}
+
+.video-container {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.video {
+    flex-basis: 40%;
+    margin: 0 10px;
+}
